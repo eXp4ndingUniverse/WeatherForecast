@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecast.Service", "src\WeatherForecast.Service\WeatherForecast.Service.csproj", "{69CA9807-C1B9-4C7D-B4FD-120AEC020F84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecast.BL", "src\WeatherForecast.BL\WeatherForecast.BL.csproj", "{8B4B8783-DB49-4EAE-8CE0-EE23ED039346}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecast.DataAccess", "src\WeatherForecast.DataAccess\WeatherForecast.DataAccess.csproj", "{6B60866A-6E85-478C-B280-4869D76BAEE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7D33EE19-A09E-4BF0-A72F-1A0D26DF4C58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69CA9807-C1B9-4C7D-B4FD-120AEC020F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69CA9807-C1B9-4C7D-B4FD-120AEC020F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69CA9807-C1B9-4C7D-B4FD-120AEC020F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69CA9807-C1B9-4C7D-B4FD-120AEC020F84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B4B8783-DB49-4EAE-8CE0-EE23ED039346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B4B8783-DB49-4EAE-8CE0-EE23ED039346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B4B8783-DB49-4EAE-8CE0-EE23ED039346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B4B8783-DB49-4EAE-8CE0-EE23ED039346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B60866A-6E85-478C-B280-4869D76BAEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B60866A-6E85-478C-B280-4869D76BAEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B60866A-6E85-478C-B280-4869D76BAEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B60866A-6E85-478C-B280-4869D76BAEE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B4B8783-DB49-4EAE-8CE0-EE23ED039346} = {7D33EE19-A09E-4BF0-A72F-1A0D26DF4C58}
+		{6B60866A-6E85-478C-B280-4869D76BAEE9} = {7D33EE19-A09E-4BF0-A72F-1A0D26DF4C58}
+		{69CA9807-C1B9-4C7D-B4FD-120AEC020F84} = {7D33EE19-A09E-4BF0-A72F-1A0D26DF4C58}
+	EndGlobalSection
+EndGlobal
